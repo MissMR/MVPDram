@@ -5,7 +5,7 @@ package com.example.administrator.mvpdram;
  */
 
 public class UserBizImpl implements userBiz {
-    private OnLoginListener listener;
+    private OnLoginListener listener;  //将处理结果回调给Presenter
 
     public UserBizImpl(OnLoginListener listener){
         this.listener = listener;

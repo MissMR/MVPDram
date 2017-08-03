@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        presenter = new LoginPresenter(this);
+        presenter = new LoginPresenter(this); // 将View传到Presenter层
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
     }
