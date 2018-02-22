@@ -1,4 +1,4 @@
-package com.example.administrator.mvpdram;
+package com.example.administrator.mvpdram.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
